@@ -1,0 +1,29 @@
+site_name: Bots de Telegram
+site_description: Crea bots que interactuan en grupos Telegram
+site_author: Jose Robledano Garcia
+site_dir: result
+site_url: https://sever8a.github.io/bottel/
+docs_dir: bottel
+
+
+nav: 
+    - "Bots Telegram": "index.md"
+    - "Requisitos": "referencia/requisitos.md"
+    - "Configuración": "referencia/configuracion.md"
+    - "Respuestas": "referencia/respuestas.md"
+    
+theme:
+    name: 'material'
+    features:
+        - navigation.expand
+
+markdown_extensions:
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.tabbed:
+        alternate_style: true
+    - def_list
+    - footnotes
+    - pymdownx.tasklist:
+        custom_checkbox: true
